@@ -5,20 +5,20 @@ import { AiFillStar } from "react-icons/ai";
 const Cards = (props) => {
   return (
     <div>
-        <div class="card" style={{width: "18rem"}}>
+        <div class="card d-flex justify-content-evenly  mx-1 my-2 flex-wrap" style={{width: "18rem"}}>
             <img src={props.image} class="card-img-top" alt="..."/>
 
             <div class="card-body">
                 <h5 class="card-title">{props.title}</h5>
                 <p class="card-text">{props.price}</p>
-                <div className='d-flex justify-content-center mb-2 ml-5'>
+                <div className='d-flex justify-content-center mb-2'>
                 <AiFillStar/>
                 <AiFillStar/>
                 <AiFillStar/>
                 <AiFillStar/>
                 <AiFillStar/>
                 </div>
-                <div className='d-flex flex-wrap justify-content-center'>
+                <div className='d-flex justify-content-center'>
                 <a href="#" class=" btn btn-danger w-100">
                 <BsCartCheckFill />   Add to Cart</a>
                 </div>
