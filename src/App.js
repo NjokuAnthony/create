@@ -1,6 +1,7 @@
 import React from 'react'
 import Cards from './components/Cards'
 
+
 const App = () => {
   let image1 = 'https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/30/6646002/1.jpg?6207'
   let image2 = 'https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/21/306344/1.jpg?0094'

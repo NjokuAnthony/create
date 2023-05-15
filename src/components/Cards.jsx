@@ -19,7 +19,7 @@ const Cards = (props) => {
                 <AiFillStar/>
                 </div>
                 <div className='d-flex justify-content-center'>
-                <a href="#" class=" btn btn-danger w-100">
+                <a href="ydfd" class=" btn btn-danger w-100">
                 <BsCartCheckFill />   Add to Cart</a>
                 </div>
             </div>
