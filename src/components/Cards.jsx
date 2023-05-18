@@ -5,7 +5,7 @@ import { AiFillStar } from "react-icons/ai";
 const Cards = (props) => {
   return (
     <div>
-        <div class="card d-flex justify-content-evenly  mx-1 my-2 flex-wrap" style={{width: "18rem"}}>
+        <div className="card d-flex justify-content-evenly  mx-1 my-2 flex-wrap" style={{width: "18rem"}}>
             <img src={props.image} class="card-img-top" alt="..."/>
 
             <div class="card-body">

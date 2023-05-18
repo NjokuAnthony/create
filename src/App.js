@@ -47,14 +47,14 @@ const App = () => {
   let price9 = 'N75,000'
   let price10 = 'N150,000'
   let price11 = 'N195,000'
-  let price12 = 'N45,000'
-  let price13 = 'N45,000'
-  let price14 = 'N40,000'
-  let price15 = 'N210,000'
+  let price12 = 'N210,000'
+  let price13 = 'N80,000'
+  let price14 = 'N75,000'
+  let price15 = 'N270,000'
 
 
   return (
-    <div className='d-flex mb-1 mx-5 px-5 jsutify-content-between flex-wrap'>
+    <div className='d-flex gap-5 jsutify-content-between align-items-center m-5 w-100 p-5 flex-wrap '>
       <Cards image={image1} title={title1} price={price1}/>
       <Cards image={image2} title={title2} price={price2}/>
       <Cards image={image3} title={title3} price={price3}/>
